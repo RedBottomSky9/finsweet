@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.conatiner {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header .header_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 67px;
+}
+.header .header_nav .nav_logo {
+  margin-top: 20px;
+  margin-right: 545px;
+}
+.header .header_nav .nav_menu {
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header .header_nav .nav_menu a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #525560;
+  margin-right: 40px;
+  line-height: 67px;
+}
+.header .header_nav .nav_menu a:hover {
+  color: #0B0706;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.header .header_nav .nav_menu .form_btn {
+  margin-top: 12px;
+}
+.header .header_nav .nav_menu button {
+  background: #1D2130;
+  border-radius: 4px;
+  padding: 12px 32px;
+  color: #fff;
+  margin-left: -7.5px;
+}
+.header .header_nav .nav_menu button:hover {
+  background: #fff;
+  color: #1D2130;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border: solid 1px #1D2130;
+}
+.header .header_nav .nav_menu button:not(:hover) {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.climate {
+  margin-top: 96px;
+}
+.climate .sub {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #525560;
+}
+.climate .climate_upper {
+  text-align: center;
+}
+.climate .climate_upper .climate_upper_date {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #1D2130;
+  margin-left: 38px;
+  margin-bottom: 32px;
+}
+.climate .climate_upper .climate_upper_title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  color: #1D2130;
+  margin-bottom: 16px;
+}
+.climate .climate_upper .climate_upper_subtitle {
+  margin-bottom: 48px;
+}
+.climate .climate_under {
+  margin-left: 128px;
+  margin-top: 96px;
+}
+.climate .climate_under .climate_under_title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: #1D2130;
+}
+.climate .climate_under .climate_under_subtitle {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.climate .climate_under .climate_under_subtitle p:nth-child(2) {
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+.climate .climate_under .climate_under_transform_title P {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 150%;
+  color: #1D2130;
+  margin-bottom: 16px;
+}
+.climate .climate_under .climate_under_transform .climate_under_transform_list {
+  margin-bottom: 32px;
+}
+.climate .climate_under .climate_under_transform .climate_under_transform_list ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+.climate .climate_under .climate_under_second_transform {
+  margin-bottom: 96px;
+}
+
+.footer {
+  background: #0B0706;
+}
+.footer .footer_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 96px;
+}
+.footer .footer_box .footer_logo {
+  margin-right: 120px;
+}
+.footer .footer_box .footer_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .footer_box .footer_info .info_box {
+  color: #fff;
+}
+.footer .footer_box .footer_info .info_box ul li:nth-child(2), .footer .footer_box .footer_info .info_box ul li:nth-child(4) {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.footer .footer_box .footer_info .info_box a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #FFFFFF;
+  opacity: 0.78;
+}
+.footer .footer_box .footer_info .info_box a:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer .footer_box .footer_info .info_box a:not(:hover) {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer .footer_box .footer_info .footer_info_more {
+  margin: 0 88px 96px 88px;
+}
+.footer .footer_box .footer_mail {
+  margin-left: 143px;
+}
+.footer .footer_box .footer_mail .footer_mail_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  color: #fff;
+  margin-bottom: 32px;
+}
+.footer .footer_box .footer_mail .footer_mail_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer .footer_box .footer_mail .footer_mail_input input {
+  background: inherit;
+  color: #fff;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+  border-radius: 4px;
+  height: 64px;
+  width: 406px;
+  padding-left: 22px;
+  margin-left: -3px;
+}
+.footer .footer_box .footer_mail .footer_mail_input input::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(235, 240, 249, 0.3);
+  opacity: 0.8;
+}
+.footer .footer_box .footer_mail .footer_mail_input input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(235, 240, 249, 0.3);
+  opacity: 0.8;
+}
+.footer .footer_box .footer_mail .footer_mail_input input:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(235, 240, 249, 0.3);
+  opacity: 0.8;
+}
+.footer .footer_box .footer_mail .footer_mail_input input::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(235, 240, 249, 0.3);
+  opacity: 0.8;
+}
+.footer .footer_box .footer_mail .footer_mail_input input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(235, 240, 249, 0.3);
+  opacity: 0.8;
+}
+.footer .footer_box .footer_mail .footer_mail_input button {
+  display: block;
+  padding: 22px 32px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: -10px;
+}
